@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Enable app to use bootstrap without any conflicts(weird display)
+        // Enable app to use bootstrap without any conflicts(Prevent weird display)
         Paginator::useBootstrap();
 
         // log the sql queries to your application log files
